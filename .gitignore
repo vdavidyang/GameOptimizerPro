@@ -4,6 +4,7 @@
 build/
 dist/x64/
 test/
+assets/
 
 *.user
 *.zip
