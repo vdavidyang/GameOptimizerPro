@@ -3,17 +3,37 @@
   <h1>GameOptimizer Pro</h1>
   <h3>Windows游戏性能优化工具箱</h3>
 </div>
-<div align="center">
-    [![Release](https://img.shields.io/github/v/release/vdavidyang/GameOptimizerPro?style=for-the-badge&logo=github&color=blue)](https://github.com/vdavidyang/GameOptimizerPro/releases)[![License](https://img.shields.io/badge/license-GPLv3-blue?style=for-the-badge&logo=gnu)](LICENSE)[![Downloads](https://img.shields.io/github/downloads/vdavidyang/GameOptimizerPro/total?style=for-the-badge&color=green)](https://github.com/vdavidyang/GameOptimizerPro/releases)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/vdavidyang/GameOptimizerPro/build.yml?style=flat-square&logo=github-actions)](https://github.com/vdavidyang/GameOptimizerPro/actions)[![Last Commit](https://img.shields.io/github/last-commit/vdavidyang/GameOptimizerPro?style=flat-square&logo=git)](https://github.com/vdavidyang/GameOptimizerPro/commits/main)[![Open Issues](https://img.shields.io/github/issues-raw/vdavidyang/GameOptimizerPro?style=flat-square&logo=github)](https://github.com/vdavidyang/GameOptimizerPro/issues)
-[![Code Size](https://img.shields.io/github/languages/code-size/vdavidyang/GameOptimizerPro?style=flat-square)](https://github.com/vdavidyang/GameOptimizerPro)[![Top Language](https://img.shields.io/github/languages/top/vdavidyang/GameOptimizerPro?style=flat-square)](https://github.com/vdavidyang/GameOptimizerPro)[![CodeQL](https://img.shields.io/github/actions/workflow/status/vdavidyang/GameOptimizerPro/codeql.yml?label=CodeQL&style=flat-square)](https://github.com/vdavidyang/GameOptimizerPro/actions/workflows/codeql.yml)
-[![Discord](https://img.shields.io/discord/your-server-id?style=flat-square&logo=discord)](https://discord.gg/your-invite-link)[![Telegram](https://img.shields.io/badge/chat-Telegram-blue?style=flat-square&logo=telegram)](https://t.me/your-channel)
-</div>
 
-[![Release](https://img.shields.io/github/v/release/vdavidyang/GameOptimizerPro?style=for-the-badge&logo=github&color=blue)](https://github.com/vdavidyang/GameOptimizerPro/releases)[![License](https://img.shields.io/badge/license-GPLv3-blue?style=for-the-badge&logo=gnu)](LICENSE)[![Downloads](https://img.shields.io/github/downloads/vdavidyang/GameOptimizerPro/total?style=for-the-badge&color=green)](https://github.com/vdavidyang/GameOptimizerPro/releases)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/vdavidyang/GameOptimizerPro/build.yml?style=flat-square&logo=github-actions)](https://github.com/vdavidyang/GameOptimizerPro/actions)[![Last Commit](https://img.shields.io/github/last-commit/vdavidyang/GameOptimizerPro?style=flat-square&logo=git)](https://github.com/vdavidyang/GameOptimizerPro/commits/main)[![Open Issues](https://img.shields.io/github/issues-raw/vdavidyang/GameOptimizerPro?style=flat-square&logo=github)](https://github.com/vdavidyang/GameOptimizerPro/issues)
-[![Code Size](https://img.shields.io/github/languages/code-size/vdavidyang/GameOptimizerPro?style=flat-square)](https://github.com/vdavidyang/GameOptimizerPro)[![Top Language](https://img.shields.io/github/languages/top/vdavidyang/GameOptimizerPro?style=flat-square)](https://github.com/vdavidyang/GameOptimizerPro)[![CodeQL](https://img.shields.io/github/actions/workflow/status/vdavidyang/GameOptimizerPro/codeql.yml?label=CodeQL&style=flat-square)](https://github.com/vdavidyang/GameOptimizerPro/actions/workflows/codeql.yml)
-[![Discord](https://img.shields.io/discord/your-server-id?style=flat-square&logo=discord)](https://discord.gg/your-invite-link)[![Telegram](https://img.shields.io/badge/chat-Telegram-blue?style=flat-square&logo=telegram)](https://t.me/your-channel)
+<p align="center">
+    <!-- 支持赞助 -->
+    <a href="https://buymeacoffee.com/oslook" target="_blank"><img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDA33?style=for-the-badge&logo=Buy%20Me%20a%20Coffee-Support%20Me-FFDA33&color=yellow"></a>
+    <!-- 核心徽章组 -->
+    <a href="https://github.com/vdavidyang/GameOptimizerPro/releases" target="_blank"><img alt="Release" src="https://img.shields.io/github/v/release/vdavidyang/GameOptimizerPro?style=for-the-badge&logo=github&color=blue"></a>
+    <a href="LICENSE" target="_blank"><img alt="License" src="https://img.shields.io/badge/license-GPLv3-blue?style=for-the-badge&logo=gnu"></a>
+	<!-- 平台支持 -->
+    <img alt="Windows-Support" src="https://img.shields.io/badge/Windows-Optimized-0078D6?style=for-the-badge&logoWindows-Optimized-0078D6&color=blue"></p>
+<p align="center">
+    <img alt="Version" src="https://img.shields.io/badge/Version-0.1.0-blue">
+    <a href="https://github.com/vdavidyang/GameOptimizerPro/releases" target="_blank"><img alt="Downloads" src="https://img.shields.io/badge/Downloads-1k+-brightgreen"></a>
+    <a href="https://github.com/vdavidyang/GameOptimizerPro/issues" target="_blank"><img alt="Open Issues" src="https://img.shields.io/github/issues-raw/vdavidyang/GameOptimizerPro?style=flat-square&logo=github"></a></p>
+
+<p align="center">
+    <!-- 开发状态徽章组 -->
+    <a href="https://github.com/vdavidyang/GameOptimizerPro/actions" target="_blank"><img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/vdavidyang/GameOptimizerPro/build.yml?style=flat-square&logo=github-actions"></a>
+    <a href="https://github.com/vdavidyang/GameOptimizerPro/commits/main" target="_blank"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/vdavidyang/GameOptimizerPro?style=flat-square&logo=git"></a>
+<!-- 专业深色系 -->
+<img alt="CI" src="https://img.shields.io/badge/CI/CD-Passing-2088FF"></p>
+
+<p align="center">
+    <!-- 代码质量徽章组 -->
+    <a href="https://github.com/vdavidyang/GameOptimizerPro" target="_blank"><img alt="Code Size" src="https://img.shields.io/github/languages/code-size/vdavidyang/GameOptimizerPro?style=flat-square"></a>
+    <a href="https://github.com/vdavidyang/GameOptimizerPro" target="_blank"><img alt="Top Language" src="https://img.shields.io/github/languages/top/vdavidyang/GameOptimizerPro?style=flat-square&color=green"></a>
+    <a href="https://github.com/vdavidyang/GameOptimizerPro/actions/workflows/codeql.yml" target="_blank"><img alt="CodeQL" src="https://img.shields.io/github/actions/workflow/status/vdavidyang/GameOptimizerPro/codeql.yml?label=CodeQL&style=flat-square)"></a></p>
+
+<p align="center">
+    <!-- 社区徽章组 -->
+    <a href="https://discord.gg/your-invite-link" target="_blank"><img alt="Discord" src="https://img.shields.io/discord/your-server-id?style=flat-square&logo=discord&color=purple"></a>
+    <a href="https://t.me/your-channel" target="_blank"><img alt="Telegram" src="https://img.shields.io/badge/chat-Telegram-0099CC?style=flat-square&logo=telegram"></a></p>
 
 <div align="center">
     <p>🎮 为Windows游戏玩家打造的性能加速神器 | 基于GPL 3.0开源协议 ✨</p>
