@@ -1,0 +1,110 @@
+{
+    "appConfig": {
+        "version": "0.1.0",
+        "systemInfo": {
+            "os": "Windows 10",
+            "arch": "x64",
+            "cpu": ""
+        },
+        "optimismConfig": {
+            "autoStartUp": false,
+            "autoLimitAntiCheat": false,
+            "powerPlan": {
+                "optimizePowerPlan": false,
+                "lockPowerPlan": false,
+                "powerPlanGuid": "{b3700455-1a40-4754-9352-fc99a63055db}"
+            },
+            "limitBackgroundActivity": false,
+            "optimizeNetworkDelay": false,
+            "optimizeSystemScheduling": false,
+            "optimizeSystemService": false
+        },
+        "processConfig": {
+            "gameProcessList": [
+                {
+                    "name": "英雄联盟",
+                    "processList": [
+                        "League of Legends.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "穿越火线",
+                    "processList": [
+                        "crossfire.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "无畏契约",
+                    "processList": [
+                        "VALORANT-Win64-Shipping.exe",
+                        "VALORANT.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "三角洲(官方版和WeGame版)",
+                    "processList": [
+                        "DeltaForce-Win64-Shipping.exe",
+                        "DeltaForceClient-Win64-Shipping.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "CSGO2",
+                    "processList": [
+                        "cs2.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "守望先锋",
+                    "processList": [
+                        "Overwatch.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "暗区突围",
+                    "processList": [
+                        "UAgame.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "永劫无间",
+                    "processList": [
+                        "NieRAutomata.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "界外狂潮",
+                    "processList": [
+                        "FragPunk.exe"
+                    ],
+                    "status": false
+                },
+                {
+                    "name": "枪神纪",
+                    "processList": [
+                        "TPS.exe"
+                    ],
+                    "status": false
+                }
+            ],
+            "antiCheatProcessList": [
+                {
+                    "name": "TX反作弊",
+                    "processList": [
+                        "SGuard.exe",
+                        "SGuard64.exe",
+                        "SGuardSvc64.exe"
+                    ],
+                    "status": false
+                }
+            ]
+        }
+    }
+}

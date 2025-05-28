@@ -1,0 +1,50 @@
+/*
+ * @Author: vdavidyang vdavidyang@gmail.com
+ * @Date: 2025-05-28 01:44:22
+ * @LastEditors: vdavidyang vdavidyang@gmail.com
+ * @LastEditTime: 2025-05-28 01:50:44
+ * @FilePath: \GameOptimizerPro\cmake\version.h.in
+ * @Description:
+ * Copyright (c) 2025 by vdavidyang vdavidyang@gmail.com, All Rights Reserved.
+ */
+
+/**
+ * @file version.h
+ * @brief 自动生成的版本和Git信息头文件
+ * @note 由CMake自动生成，请勿手动修改
+ */
+
+#pragma once
+
+// 项目基础信息
+#define PROJECT_NAME "@PROJECT_NAME_EN@"
+#define PROJECT_VERSION "@PROJECT_VERSION_MAJOR@.@PROJECT_VERSION_MINOR@.@PROJECT_VERSION_PATCH@"
+
+#ifndef PROJECT_VERSION_MAJOR
+#define PROJECT_VERSION_MAJOR @PROJECT_VERSION_MAJOR @
+#endif
+
+#ifndef PROJECT_VERSION_MINOR
+#define PROJECT_VERSION_MINOR @PROJECT_VERSION_MINOR @
+#endif
+
+#ifndef PROJECT_VERSION_PATCH
+#define PROJECT_VERSION_PATCH @PROJECT_VERSION_PATCH @
+#endif
+
+#ifndef PROJECT_VERSION
+#define PROJECT_VERSION "@PROJECT_VERSION_MAJOR@.@PROJECT_VERSION_MINOR@.@PROJECT_VERSION_PATCH@"
+#endif
+
+#define PROJECT_ARCH "@TARGET_ARCH@"
+
+// Git信息
+#define GIT_COMMIT_HASH "@GIT_COMMIT_HASH@"
+#define GIT_COMMIT_HASH_SHORT "@GIT_COMMIT_HASH_SHORT@"
+#define GIT_BRANCH "@GIT_BRANCH@"
+#define GIT_TAG "@GIT_TAG@"
+#define GIT_IS_DIRTY @GIT_IS_DIRTY @
+
+// 构建信息
+#define BUILD_TIMESTAMP "@TIMESTAMP@"
+#define BUILD_SYSTEM "@CMAKE_SYSTEM@"

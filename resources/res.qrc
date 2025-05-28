@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>app.png</file>
+  </qresource>
+  <qresource prefix="imgs">
+    <file>qr_code.png</file>
+  </qresource>
+</RCC>
