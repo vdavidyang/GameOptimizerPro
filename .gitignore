@@ -12,9 +12,10 @@ assets/
 *.sha256
 *.user
 *.jpg
-qr_code.png
 
 *.py
+
+qr_code.png
 
 ToastNotification.*
 
