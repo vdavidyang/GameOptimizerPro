@@ -15,6 +15,9 @@
     <span style="color: #F3FFBD; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">z</span>
     <span style="color: #FF1654; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">e</span>
     <span style="color: #5E548E; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">r</span>
+    <span style="color: #FF6B6B; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">P</span>
+    <span style="color: #5E548E; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">r</span>
+    <span style="color: #FF9F1C; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">o</span>
   </h1>
   <!-- 副标题 -->
     <h3 align="center" style="color: #6C757D; font-weight: 300; margin-top: -10px">
@@ -25,7 +28,7 @@
     <!-- 支持赞助 -->
     <a href="https://buymeacoffee.com/oslook" target="_blank"><img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDA33?style=for-the-badge&logo=Buy%20Me%20a%20Coffee-Support%20Me-FFDA33&color=yellow"></a>
     <!-- 核心徽章组 -->
-    <a href="https://github.com/vdavidyang/GameOptimizerPro/releases" target="_blank"><img alt="Release" src="https://img.shields.io/github/v/release/vdavidyang/GameOptimizerPro?style=for-the-badge&logo=github&color=blue"></a>
+    <a href="https://github.com/vdavidyang/GameOptimizerPro/releases" target="_blank"><img alt="Release" src="https://img.shields.io/github/v/release/vdavidyang/GameOptimizerPro?style=for-the-badge&logo=github&color=red"></a>
     <a href="LICENSE" target="_blank"><img alt="License" src="https://img.shields.io/badge/license-GPLv3-blue?style=for-the-badge&logo=gnu"></a>
 	<!-- 平台支持 -->
     <img alt="Windows-Support" src="https://img.shields.io/badge/Windows-Optimized-0078D6?style=for-the-badge&logoWindows-Optimized-0078D6&color=blue"></p>
@@ -34,18 +37,19 @@
     <a href="https://github.com/vdavidyang/GameOptimizerPro/releases" target="_blank"><img alt="Downloads" src="https://img.shields.io/badge/Downloads-1k+-brightgreen"></a>
     <a href="https://github.com/vdavidyang/GameOptimizerPro/issues" target="_blank"><img alt="Open Issues" src="https://img.shields.io/github/issues-raw/vdavidyang/GameOptimizerPro?style=flat-square&logo=github"></a></p>
 
+
 <p align="center">
     <!-- 开发状态徽章组 -->
     <a href="https://github.com/vdavidyang/GameOptimizerPro/actions" target="_blank"><img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/vdavidyang/GameOptimizerPro/build.yml?style=flat-square&logo=github-actions"></a>
     <a href="https://github.com/vdavidyang/GameOptimizerPro/commits/main" target="_blank"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/vdavidyang/GameOptimizerPro?style=flat-square&logo=git"></a>
 <!-- 专业深色系 -->
 <img alt="CI" src="https://img.shields.io/badge/CI/CD-Passing-2088FF"></p>
-
 <p align="center">
     <!-- 代码质量徽章组 -->
     <a href="https://github.com/vdavidyang/GameOptimizerPro" target="_blank"><img alt="Code Size" src="https://img.shields.io/github/languages/code-size/vdavidyang/GameOptimizerPro?style=flat-square"></a>
-    <a href="https://github.com/vdavidyang/GameOptimizerPro" target="_blank"><img alt="Top Language" src="https://img.shields.io/github/languages/top/vdavidyang/GameOptimizerPro?style=flat-square&color=green"></a>
+    <a href="https://github.com/vdavidyang/GameOptimizerPro" target="_blank"><img alt="Top Language" src="https://img.shields.io/github/languages/top/vdavidyang/GameOptimizerPro?style=flat-square&color=red"></a>
     <a href="https://github.com/vdavidyang/GameOptimizerPro/actions/workflows/codeql.yml" target="_blank"><img alt="CodeQL" src="https://img.shields.io/github/actions/workflow/status/vdavidyang/GameOptimizerPro/codeql.yml?label=CodeQL&style=flat-square)"></a></p>
+
 
 <p align="center">
     <!-- 社区徽章组 -->
@@ -98,14 +102,17 @@ GameOptimizer Pro 是专为PC游戏玩家设计的系统级优化工具，通过
 
 ### 二进制安装
 
-1. 从[Release页面](https://github.com/vdavidyang/GameOptimizerPro/releases)，下载最新安装包
+1. 下载最新安装包：
+
+   * [GitHub下载](https://github.com/vdavidyang/GameOptimizerPro/releases)
+   *  [Gitee下载](https://gitee.com/vdavidyang/GameOptimizerPro/releases)
+   * [百度网盘](https://pan.baidu.com/s/1gxfJKSd-VUY6uUm08sIlzQ)(密码: `bi4r`)
+   * [夸克网盘](https://pan.quark.cn/s/d545e01d65d9)(密码: `FCWR`)
+
+   * [阿里云盘](https://www.alipan.com/s/ARtKcuc3T3n)(密码: `4h4g`)
+   * [蓝奏云](https://wwry.lanzouq.com/b0j0lizfe)(密码: `h0bv`)
 2. 运行 `GameOptimizerPro_Setup.exe`
 3. 按向导完成安装
-
-```powershell
-# 静默安装命令（管理员权限）
-Start-Process "GameOptimizerPro_Setup.exe" -ArgumentList "/S" -Verb RunAs
-```
 
 ## 🚦 快速使用
 
@@ -115,6 +122,8 @@ Start-Process "GameOptimizerPro_Setup.exe" -ArgumentList "/S" -Verb RunAs
    - 基础优化：电源模式+进程调度
    - 高级优化：网络+后台抑制+自动限制反作弊
 4. 启动游戏享受流畅体验
+
+![ui](resources/ui.png)
 
 ## 🔨 构建指南
 
@@ -144,19 +153,23 @@ cmake --build build --config Release
 ### 🔒 安全性
 
 **Q: 会被封号吗？**
+
 A: 完全安全，仅调整系统调度规则，不修改游戏文件，本人长期实测
 
 **Q：杀毒软件报毒？** 
+
 A：因涉及注册表修改，部分杀软可能误报，请添加信任或[查看源码](src/)验证安全性。  
 
 ### ❓ 优化效果
 
 **Q: 帧率提升幅度如何？**
+
 A: 多数用户反馈有效，实测可提升10-30%帧率稳定性，具体效果因硬件配置而异
 
 ### 📈 其他问题
 
 **Q：支持Steam等平台吗？**
+
 A：理论上支持所有Windows平台的游戏进程
 
 ## 🤝 贡献指南

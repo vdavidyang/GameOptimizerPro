@@ -25,6 +25,9 @@ Var HASH_VALUE_NOW
 !define BUILDE_DIR "..\build\${ARCH}\Release" ; 源文件目录
 !define OUTPUT_DIR "${ARCH}"                  ; 输出目录
 
+!define PUBLISHER "vdavidyang"
+!define WEB_SITE "https://github.com/vdavidyang/GameOptimizerPro"
+
 Name "鱼腥味的游戏优化工具箱 (${ARCH})"
 OutFile "${OUTPUT_DIR}\GameOptimizerPro_${ARCH}_Setup.exe"
 InstallDir "$PROGRAMFILES\GameOptimizerPro_${ARCH}"
@@ -193,12 +196,20 @@ Section "主程序" SEC_MAIN
     File /r "${BUILDE_DIR}\GameOptimizerPro_${ARCH}.exe"
     File /r "${BUILDE_DIR}\vc_redist.x64.exe"
     File /r "${BUILDE_DIR}\*.dll"
-    File /r "${BUILDE_DIR}\platforms\*.*"
-    File /r "${BUILDE_DIR}\config\*.*"
+
     File /r "..\LICENSE"
     File /r "..\LICENSE_ZH.txt"
     File /r "..\LICENSE_ZH.md"
+
+    SetOutPath "$INSTDIR\platforms"
+    File /r "${BUILDE_DIR}\platforms\*.*"
+
+    SetOutPath "$INSTDIR\config"
+    File /r "${BUILDE_DIR}\config\*.json"
+
     ; File /r "${BUILDE_DIR}\translations\*.*"
+
+    SetOutPath $INSTDIR
 
     ; 创建快捷方式
     CreateDirectory "$SMPROGRAMS\鱼腥味的游戏优化工具箱 (${ARCH})"
