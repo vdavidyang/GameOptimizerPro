@@ -1,9 +1,12 @@
 ﻿
+# 必须使用Unicode版NSIS（3.0+）
+Unicode true
+
 ; 指定插件目录
 !addplugindir ".\Plugins"
 
 ; 添加版本定义
-!define VERSION "1.0.0.0"
+!define VERSION "0.1.0.0"
 
 Var res_hash_file
 Var HASH_VALUE_EXPECT
@@ -19,7 +22,7 @@ Var HASH_VALUE_NOW
 !endif
 
 ; 设置源文件目录和输出目录
-!define SOURCE_DIR "..\build\${ARCH}\Release" ; 源文件目录
+!define BUILDE_DIR "..\build\${ARCH}\Release" ; 源文件目录
 !define OUTPUT_DIR "${ARCH}"                  ; 输出目录
 
 Name "鱼腥味的游戏优化工具箱 (${ARCH})"
@@ -32,6 +35,7 @@ RequestExecutionLevel admin
 !include "LogicLib.nsh"
 !include "StrFunc.nsh"
 ${StrCase}
+
 !define MUI_ICON "..\resources\app.ico"
 !define MUI_UNICON "..\resources\uninstall.ico"
 
@@ -39,7 +43,7 @@ ${StrCase}
 ; 欢迎页面
 !insertmacro MUI_PAGE_WELCOME
 ; 许可协议
-!insertmacro MUI_PAGE_LICENSE "..\LICENSE"
+!insertmacro MUI_PAGE_LICENSE "..\LICENSE_ZH.txt"
 ; 选择安装位置
 !insertmacro MUI_PAGE_DIRECTORY
 ; 安装过程
@@ -178,7 +182,7 @@ Section "主程序" SEC_MAIN
     
     ; 先校验源文件再复制
     !if "${EXPECTED_HASH}" != "SKIP_CHECK"
-        Crypto::HashFile "SHA256" "${SOURCE_DIR}\GameOptimizerPro_${ARCH}.exe"
+        Crypto::HashFile "SHA256" "${BUILDE_DIR}\GameOptimizerPro_${ARCH}.exe"
         Pop $0
         StrCmp $0 "${EXPECTED_HASH}" +3 0
         MessageBox MB_ICONSTOP "文件校验失败，安装程序可能损坏或被篡改！"
@@ -186,12 +190,15 @@ Section "主程序" SEC_MAIN
     !endif
 
     ; 从源目录复制文件
-    File /r "${SOURCE_DIR}\GameOptimizerPro_${ARCH}.exe"
-    File /r "${SOURCE_DIR}\vc_redist.x64.exe"
-    File /r "${SOURCE_DIR}\*.dll"
-    File /r "${SOURCE_DIR}\platforms\*.*"
-    File /r "${SOURCE_DIR}\config\*.*"
-    ; File /r "${SOURCE_DIR}\translations\*.*"
+    File /r "${BUILDE_DIR}\GameOptimizerPro_${ARCH}.exe"
+    File /r "${BUILDE_DIR}\vc_redist.x64.exe"
+    File /r "${BUILDE_DIR}\*.dll"
+    File /r "${BUILDE_DIR}\platforms\*.*"
+    File /r "${BUILDE_DIR}\config\*.*"
+    File /r "..\LICENSE"
+    File /r "..\LICENSE_ZH.txt"
+    File /r "..\LICENSE_ZH.md"
+    ; File /r "${BUILDE_DIR}\translations\*.*"
 
     ; 创建快捷方式
     CreateDirectory "$SMPROGRAMS\鱼腥味的游戏优化工具箱 (${ARCH})"
@@ -218,7 +225,7 @@ Section "运行环境检测"
     ; 如果未安装，尝试从安装包目录运行 vc_redist.x64.exe
     MessageBox MB_YESNO "需要安装 VC++ 2015-2022 运行库，是否立即安装？" IDNO vc_ok
     SetOutPath "$PLUGINSDIR" ; 临时目录
-    File "${SOURCE_DIR}\vc_redist.x64.exe" ; 从源目录提取安装包
+    File "${BUILDE_DIR}\vc_redist.x64.exe" ; 从源目录提取安装包
     ExecWait '"$PLUGINSDIR\vc_redist.x64.exe" /install /quiet /norestart' $0
     ${If} $0 != 0
         MessageBox MB_ICONSTOP "VC++ 运行库安装失败，错误代码：$0"

@@ -3,6 +3,8 @@
     <file>app.png</file>
   </qresource>
   <qresource prefix="imgs">
-    <file>qr_code.png</file>
+    <file>add_wechat.jpg</file>
+    <file>support.png</file>
+    <file>wechat_gzh.jpg</file>
   </qresource>
 </RCC>

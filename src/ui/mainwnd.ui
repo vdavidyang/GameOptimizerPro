@@ -7,19 +7,25 @@
     <x>0</x>
     <y>0</y>
     <width>720</width>
-    <height>480</height>
+    <height>640</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="minimumSize">
    <size>
     <width>720</width>
-    <height>480</height>
+    <height>640</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>720</width>
-    <height>480</height>
+    <height>640</height>
    </size>
   </property>
   <property name="font">
@@ -39,17 +45,17 @@
     <rect>
      <x>0</x>
      <y>10</y>
-     <width>720</width>
-     <height>461</height>
+     <width>701</width>
+     <height>611</height>
     </rect>
    </property>
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>410</x>
       <y>10</y>
       <width>291</width>
-      <height>341</height>
+      <height>451</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
@@ -270,40 +276,98 @@
    <widget class="QWidget" name="gridLayoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>399</x>
-      <y>359</y>
-      <width>311</width>
+      <x>13</x>
+      <y>470</y>
+      <width>681</width>
       <height>140</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout_2"/>
-   </widget>
-   <widget class="QLabel" name="label_note">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>350</y>
-      <width>309</width>
-      <height>138</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/imgs/qr_code.png&quot; width=&quot;800&quot; height=&quot;300&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;本软件&lt;a href=&quot;https://www.baidu.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#004275;&quot;&gt;Github开源地址&lt;/span&gt;&lt;/a&gt;，喜欢的给个Star吧！！！&lt;/p&gt;&lt;p&gt;大学生为爱发电不易，&lt;a href=&quot;https://www.baidu.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#004275;&quot;&gt;请我喝瓶水吧~&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;有需要鞋子的兄弟可以添加微信：&lt;a href=&quot;https://www.baidu.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#004275;&quot;&gt;Mrmuscle12138&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-    <property name="openExternalLinks">
-     <bool>true</bool>
-    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_support">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/imgs/support.png&quot; width=&quot;400&quot; height=&quot;200&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>&lt;p&gt;大学生为爱发电不易，&lt;a href=&quot;https://github.com/vdavidyang/GameOptimizerPro&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#004275;&quot;&gt;请我喝瓶水吧~（鼠标悬浮此处即可）&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_github">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>&lt;p&gt;本软件&lt;a href=&quot;https://github.com/vdavidyang/GameOptimizerPro&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#004275;&quot;&gt;Github开源地址&lt;/span&gt;&lt;/a&gt;，喜欢就给个Star吧！！！&lt;/p&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_wechat_add">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/imgs/add_wechat.jpg&quot; width=&quot;300&quot; height=&quot;400&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>&lt;p&gt;有需要鞋子的兄弟可以添加微信：&lt;a href=&quot;https://github.com/vdavidyang/GameOptimizerPro&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#004275;&quot;&gt;Mrmuscle12138（鼠标悬浮此处即可）&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_wechat_gzh">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/imgs/wechat_gzh.jpg&quot; width=&quot;200&quot; height=&quot;200&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>&lt;p&gt;微信公众号：&lt;a href=&quot;https://github.com/vdavidyang/GameOptimizerPro&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#004275;&quot;&gt;鱼腥味&amp;#52;&amp;#48;&amp;#52;（鼠标悬浮此处即可）&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
  </widget>

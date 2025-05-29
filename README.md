@@ -1,8 +1,25 @@
 <div align="center">
     <img src="./resources/app.png" width="160" height="160" alt="GameOptimizer Pro Logo">
-  <h1>GameOptimizer Pro</h1>
-  <h3>Windows游戏性能优化工具箱</h3>
-</div>
+  <!-- 彩色渐变标题 -->
+  <h1 align="center">
+    <span style="color: #FF6B6B; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">G</span>
+    <span style="color: #4ECDC4; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">a</span>
+    <span style="color: #45B7D1; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">m</span>
+    <span style="color: #FFBE0B; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">e</span>
+    <span style="color: #FF9F1C; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">O</span>
+    <span style="color: #A5DD9B; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">p</span>
+    <span style="color: #F25F5C; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">t</span>
+    <span style="color: #70C1B3; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">i</span>
+    <span style="color: #247BA0; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">m</span>
+    <span style="color: #50514F; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">i</span>
+    <span style="color: #F3FFBD; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">z</span>
+    <span style="color: #FF1654; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">e</span>
+    <span style="color: #5E548E; text-shadow: 2px 2px 4px rgba(0,0,0,0.2)">r</span>
+  </h1>
+  <!-- 副标题 -->
+    <h3 align="center" style="color: #6C757D; font-weight: 300; margin-top: -10px">
+    Windows游戏性能优化工具箱
+</h3></div>
 
 <p align="center">
     <!-- 支持赞助 -->
@@ -38,6 +55,8 @@
 <div align="center">
     <p>🎮 为Windows游戏玩家打造的性能加速神器 | 基于GPL 3.0开源协议 ✨</p>
 </div>
+
+
 ## 🔍 项目简介
 
 GameOptimizer Pro 是专为PC游戏玩家设计的系统级优化工具，通过智能调整系统资源分配、进程优先级和网络设置，显著提升游戏帧率稳定性，降低卡顿和延迟，支持Windows 10/11系统。
@@ -172,4 +191,4 @@ A：理论上支持所有Windows平台的游戏进程
 - 公开修改后的源代码
 - 不得用于商业闭源项目
 
-完整协议文本见[LICENSE](./LICENSE)文件。
+完整协议文本见[LICENSE](./LICENSE)、[LICENSE_ZH](./LICENSE_ZH.md)文件。

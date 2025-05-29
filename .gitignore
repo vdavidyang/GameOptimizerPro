@@ -15,7 +15,11 @@ assets/
 
 *.py
 
+support.png
 qr_code.png
+
+release_template.md
+使用指南*.*
 
 ToastNotification.*
 
